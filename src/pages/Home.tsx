@@ -49,7 +49,7 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "Marketing Director",
     company: "TechCorp",
-    content: "LeadGen Pro transformed our lead generation. We've seen a 3x increase in qualified leads.",
+    content: "RavitLead transformed our lead generation. We've seen a 3x increase in qualified leads.",
     rating: 5
   },
   {
@@ -71,7 +71,7 @@ export const Home = () => {
             <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
               <Zap className="w-4 h-4 text-primary-foreground" />
             </div>
-            <span className="font-bold text-xl">LeadGen Pro</span>
+            <span className="font-bold text-xl">RavitLead</span>
           </div>
           
           <nav className="hidden md:flex items-center gap-6">
@@ -93,7 +93,7 @@ export const Home = () => {
       <section 
         className="relative py-20 px-4 bg-gradient-secondary overflow-hidden"
         style={{
-          backgroundImage: `linear-gradient(rgba(240, 242, 247, 0.9), rgba(240, 242, 247, 0.8)), url(${heroBg})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(${heroBg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -184,7 +184,7 @@ export const Home = () => {
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-4xl font-bold">Loved by Marketing Teams</h2>
             <p className="text-xl text-muted-foreground">
-              See why thousands of businesses trust LeadGen Pro
+              See why thousands of businesses trust RavitLead
             </p>
           </div>
 
@@ -223,7 +223,7 @@ export const Home = () => {
         <div className="container mx-auto max-w-4xl text-center space-y-8">
           <h2 className="text-4xl font-bold">Ready to Generate More Leads?</h2>
           <p className="text-xl opacity-90 max-w-2xl mx-auto">
-            Join thousands of businesses already using LeadGen Pro to capture and convert more leads
+            Join thousands of businesses already using RavitLead to capture and convert more leads
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary">
@@ -247,7 +247,7 @@ export const Home = () => {
                 <div className="w-6 h-6 bg-gradient-primary rounded flex items-center justify-center">
                   <Zap className="w-3 h-3 text-primary-foreground" />
                 </div>
-                <span className="font-bold">LeadGen Pro</span>
+                <span className="font-bold">RavitLead</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 The modern lead generation platform for growing businesses.
@@ -286,7 +286,7 @@ export const Home = () => {
           </div>
           
           <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-            © 2024 LeadGen Pro. All rights reserved.
+            © 2024 RavitLead. All rights reserved.
           </div>
         </div>
       </footer>

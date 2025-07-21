@@ -49,7 +49,7 @@ export const Navigation = () => {
         <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
           <Zap className="w-4 h-4 text-primary-foreground" />
         </div>
-        <span className="font-bold text-lg">LeadGen Pro</span>
+        <span className="font-bold text-lg">RavitLead</span>
       </div>
       
       <nav className="space-y-2">
